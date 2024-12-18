@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intersellar store</title>
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <style>
+        body {
+    background-color:  #000000; 
+    color: #f8f9fa; 
+    padding-top: 70px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+            }
+        .product-card {
+            margin-bottom: 30px;
+            transition: opacity 0.3s ease;
+        }
+        .product-image {
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .product-card:hover {
+            opacity: 0.7; 
+        }
+        .new-arrivals {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+        .footer {
+            color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h2 {
+            color: #f8f9fa;
+        }
+        .banner-image img {
+        width: 80%;       
+        height: 800px;     
+        display: block;   
+        margin: 0 auto;    
+        }
+    </style>
+</head>
+<body>
+   <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Intersellar Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#newarrivals">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cart">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-image">
+        <img src="https://c4.wallpaperflare.com/wallpaper/183/625/194/space-the-film-art-poster-wallpaper-preview.jpg" alt="Promotional Banner" />
+    </div>
+
+     <!-- New Arrivals heseg -->
+<div id="newarrivals" class="container my-5 new-arrivals" style="background-color: #0000;">
+    <h2 class="text-center mb-4">New Arrivals</h2>
+   
+    <div class="row g-0">
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://i0.wp.com/theoldmoneybook.com/wp-content/uploads/2015/12/omb-blog-lacoste-polo.jpg?fit=748%2C748&ssl=1"  alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;">
+                    <h5 class="card-title">Хувцас 1</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт.</p>
+                    <p class="card-text">👉Yнэ:78.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://th.bing.com/th/id/R.79ad2262c1d6d24693da53fe326e2b5e?rik=g7ZEYiw8jEDJYw&riu=http%3a%2f%2fwearoldmoney.com%2fcdn%2fshop%2ffiles%2fwhitet-shirt2.webp%3fv%3d1701792949%26width%3d2048&ehk=EOh9mxEgZizm9polAm%2b05RJTLcIIhkbL88nkQLFFdME%3d&risl=&pid=ImgRaw&r=0" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;">
+                    <h5 class="card-title">Хувцас 2</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт.</p>
+                    <p class="card-text">👉Yнэ:78.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://i.pinimg.com/736x/a6/b7/7e/a6b77efe7bdc12f7533a796e91cfd377.jpg" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;">
+                    <h5 class="card-title">Хувцас 3</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт.</p>
+                    <p class="card-text">👉Yнэ:78.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://th.bing.com/th/id/OIP.b072fDo42xJbeo3LJQmYhAHaHa?w=720&h=720&rs=1&pid=ImgDetMain" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;"> 
+                    <h5 class="card-title">Хувцас 4</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                    <p class="card-text">👉Yнэ:48.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://th.bing.com/th/id/OIP.Hwqh0Xx7KrlvDtCEu3p2DAHaHi?rs=1&pid=ImgDetMain" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;">
+                    <h5 class="card-title">Хувцас 5</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                    <p class="card-text">👉Yнэ:48.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://th.bing.com/th/id/R.efb763e292bbc7b12fd44abe23f31589?rik=biQElUEEnywYrQ&riu=http%3a%2f%2fwww.thekoreanfashion.com%2fcdn%2fshop%2fproducts%2fNecked-Zipper-Sweater-The-Korean-Fashion.jpg%3fv%3d1665484828&ehk=Gvg9YROtPzZ6JUK%2ffbGhXbjA67Hpig1J4eaqEj18dWg%3d&risl=&pid=ImgRaw&r=0" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;">
+                    <h5 class="card-title">Хувцас 6</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                    <p class="card-text">👉Yнэ:48.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://th.bing.com/th/id/OIP._spfD9NP9b1IOfaWugGhwAHaHZ?w=736&h=735&rs=1&pid=ImgDetMain" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;"> 
+                    <h5 class="card-title">Хувцас 7</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                    <p class="card-text">👉Yнэ:58.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://th.bing.com/th/id/OIP.z9MbVxqCagb0aln9mm3M1QAAAA?rs=1&pid=ImgDetMain" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;">
+                    <h5 class="card-title">Хувцас 8</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                    <p class="card-text">👉Yнэ:58.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="https://i.pinimg.com/originals/2f/7f/14/2f7f1437056865b2fb19e60f636dabf7.jpg" alt="Product Image">
+                <div class="card-body bg-dark" style="color: #f8f9fa;">
+                    <h5 class="card-title">Хувцас 9</h5>
+                    <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                    <p class="card-text">👉Yнэ:58.000₮</p>
+                    <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Shop cour collection heseg-->
+<div id="shop" class="container my-5" style="background-color: #000000;">
+    <h2 class="text-center mb-4">Shop Our Collection</h2>
+
+        <div class="row g-0">            
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.vCpOU4PP-UejqRhNwDmWmQHaHa&rs=1&pid=ImgDetMain" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;"> 
+                        <h5 class="card-title">Хувцас 10</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:67.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.KjNRRKfYXOwJkzjp2nmzEgHaHa&w=2000&h=2000&rs=1&pid=ImgDetMain" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 11</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:98.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://m.media-amazon.com/images/I/51ub1PeLp3L._SL500_.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 12</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:58.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://cdn.propercloth.com/pic_products/577_dac88776db2f70d94da8cd1e3d4e286e_large.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 13</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:98.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.s77HBrPHhDygji3lJEMq-gHaHa&w=492&h=492&rs=1&pid=ImgDetMain" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 14</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:58.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://inismeain.ie/wp-content/uploads/2021/07/A2139-MAIRTIN-BEAG-BUTTON-UP-340_A_FEAT-1024x1024.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 15</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:48.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://inismeain.ie/wp-content/uploads/2023/07/A2013_Inis_Meain_Cashmere_Boat_Builder_Navy_Fleck_1x1_Product_2-copy-1536x1536.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 16</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:98.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://inismeain.ie/wp-content/uploads/2023/07/A2013_Inis_Meain_Cashmere_Boat_Builder_Charcoal_Fleck_1x1_Product_1.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 17</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:98.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://i.pinimg.com/originals/ea/73/8a/ea738a08025869141d7fd2dea903027d.png" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 18</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:98.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://www.filson.eu/cdn/shop/products/FMMAG0008Y0010_238_FLS_12_2000x.jpg?v=1698069104" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;"> 
+                        <h5 class="card-title">Хувцас 19</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:58.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5639cf4fe4b0a98c69bd3d33/1691409064999-NRAJF5HRRCYZ3UH55D1M/Men%25E2%2580%2599s%2BBlue%2BMogganer%2BNorth%2BSea%2BShetland%2BDark%2BOlive%2B.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 20</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:69.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://images.squarespace-cdn.com/content/v1/5639cf4fe4b0a98c69bd3d33/1683893886519-NJ8VX4HWZYDU8YIM2U93/Mens+Bosie+Luxury+jumper+Dusty+Green+.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Хувцас 21</h5>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:58.000₮</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div> 
+    </div>
+
+    <div id="shop" class="container my-5" style="background-color: #000000;">
+        <h2 class="text-center mb-4">Pants</h2>
+
+        <div class="row g-0">
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://www.costco.com.au/medias/sys_master/images/h46/hd5/33956317888542.jpg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;"> 
+                        <h5 class="card-title">Өмд 1</h5>
+                        <p class="card-text">Размер: M L XL XXL XXXL</p>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:55.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.zxcdTjKWhlZ7WniBwA_RBwHaHa&w=750&h=750&rs=1&pid=ImgDetMain" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Өмд 2</h5>
+                        <p class="card-text">Размер: M L XL XXL XXXL</p>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:55.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://snarkynomad.com/wp-content/uploads/2014/11/Outerboro-Motile-Pants-700x700.jpeg" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Өмд 3</h5>
+                        <p class="card-text">Размер: M L XL XXL XXXL</p>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:78.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://www.thefirecenter.com/cdn/shop/products/8561p6t-04-flat-6-pocket-wool-blend-trousers.jpg?v=1650489512&width=1920" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;"> 
+                        <h5 class="card-title">Өмд 4</h5>
+                        <p class="card-text">Размер: M L XL XXL XXXL</p>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:59.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.1Bok4SDpPXCz3a8e7excEgHaHa&w=500&h=500&rs=1&pid=ImgDetMain" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Өмд 5</h5>
+                        <p class="card-text">Размер: M L XL XXL XXXL</p>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:59.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="https://img.shoplineapp.com/media/image_clips/5f8fd06d71df25001aa59063/original.jpg?1603260524" alt="Product Image">
+                    <div class="card-body bg-dark" style="color: #f8f9fa;">
+                        <h5 class="card-title">Өмд 6</h5>
+                        <p class="card-text">Размер: M L XL XXL XXXL</p>
+                        <p class="card-text">👉Зөвхөн захиалгаар 14-21 хоногт</p>
+                        <p class="card-text">👉Yнэ:59.000₮</p>
+                        <a href="javascript:void(0);" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Мэдээллээ бөглөн, захиалахыг хүссэн хувцасний мэдээллийг бичнэ үү!:</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Нэр</label>
+                    <input type="text" class="form-control" id="name" placeholder="Таны нэр">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Таны Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Мэссеж</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Пүүзний мэдээлэл"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info">Илгээх</button>
+            </form>
+            <button onclick="window.location.href='https://www.instagram.com/evolve_mongolia/'" class="btn btn-danger mt-2">бидний INSTAGRAM хуудас</button>
+
+
+        </div>
+    </section>
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
